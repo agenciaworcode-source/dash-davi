@@ -43,13 +43,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
       <div className="px-6 mb-10">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 border border-blue-100 shadow-sm">
-            <Beaker size={24} fill="currentColor" />
-          </div>
-          <div>
-            <h1 className="text-xl font-bold tracking-tight text-slate-900">Beautyderm</h1>
-            <p className="text-[10px] uppercase tracking-widest text-blue-500 font-bold">Precisão Clínica</p>
-          </div>
+          <img src="/logo.png" alt="Beautyderm Logo" className="h-10 w-auto" />
         </div>
       </div>
 
@@ -72,10 +66,6 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           Sincronizar CRM
         </button>
         <div className="space-y-1">
-          <a className="flex items-center gap-3 px-2 py-2 text-slate-500 text-xs font-semibold hover:text-blue-600 transition-colors" href="#">
-            <HelpCircle size={16} />
-            Suporte
-          </a>
           <button
             onClick={handleLogout}
             className="flex items-center gap-3 px-2 py-2 text-slate-500 text-xs font-semibold hover:text-red-500 transition-colors w-full"

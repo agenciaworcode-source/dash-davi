@@ -312,9 +312,6 @@ export default function Dashboard() {
         <VendorRanking data={ranking} />
       </div>
 
-      <button className="fixed bottom-8 right-8 w-14 h-14 bg-blue-600 text-white rounded-full shadow-lg flex items-center justify-center hover:bg-blue-700 transition-all active:scale-95 z-50">
-        <PlusCircle size={24} />
-      </button>
     </div>
   );
 }

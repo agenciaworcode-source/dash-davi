@@ -19,25 +19,9 @@ export default function DashboardHeader({ onMenuClick }: DashboardHeaderProps) {
           <Menu size={22} />
         </button>
 
-        {/* Search — oculto em mobile */}
-        <div className="relative hidden md:block">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-          <input
-            className="pl-10 pr-4 py-2 bg-slate-50 border-none rounded-xl text-sm focus:ring-2 focus:ring-blue-500/10 w-64 outline-none transition-all"
-            placeholder="Pesquisar..."
-            type="text"
-          />
-        </div>
       </div>
 
       <div className="flex items-center gap-2 md:gap-5">
-        <button className="p-2 text-slate-400 hover:text-blue-600 transition-colors rounded-lg hover:bg-slate-50">
-          <Bell size={20} />
-        </button>
-        <button className="hidden md:block p-2 text-slate-400 hover:text-blue-600 transition-colors rounded-lg hover:bg-slate-50">
-          <History size={20} />
-        </button>
-        <div className="hidden md:block h-6 w-px bg-slate-100 mx-1" />
         <div className="flex items-center gap-2">
           <div className="hidden md:block text-right">
             <p className="text-xs font-bold text-slate-900">Admin</p>

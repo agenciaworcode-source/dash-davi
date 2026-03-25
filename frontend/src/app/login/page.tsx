@@ -45,10 +45,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="flex flex-col items-center mb-10">
-          <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center text-white shadow-lg mb-4">
-            <Beaker size={32} />
-          </div>
-          <h1 className="text-2xl font-bold text-slate-900">Beautyderm</h1>
+          <img src="/logo.png" alt="Beautyderm Logo" className="h-16 w-auto mb-4" />
           <p className="text-sm text-slate-400 mt-1">Dashboard de Precisão</p>
         </div>
 
