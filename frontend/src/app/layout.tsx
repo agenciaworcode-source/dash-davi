@@ -14,7 +14,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Beautyderm | Dashboard de Precisão",
+  title: "Dashboard de Precisão | Beautyderm",
   description: "Sistema analítico integrado ao CRM Agendor",
 };
 
