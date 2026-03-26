@@ -26,7 +26,7 @@ export default function StatsCards({ metrics, loading }: StatsProps) {
             <TrendingUp size={14} /> +12.5%
           </span>
         </div>
-        <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Total de Negócios</p>
+        <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Inscrições</p>
         <h3 className="text-4xl font-extrabold text-slate-900 tracking-tight">{metrics.novosLeads}</h3>
         <div className="mt-4 pt-4 border-t border-slate-50 flex items-center justify-between">
           <span className="text-[10px] text-slate-300 font-medium tracking-tight">VS PERÍODO ANTERIOR</span>
@@ -43,7 +43,7 @@ export default function StatsCards({ metrics, loading }: StatsProps) {
             <Verified size={14} /> Pico
           </span>
         </div>
-        <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Taxa de Conversão</p>
+        <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Presentes</p>
         <h3 className="text-4xl font-extrabold text-slate-900 tracking-tight">{conversionRate}%</h3>
         <div className="mt-4 pt-4 border-t border-slate-50">
           <div className="w-full bg-slate-50 h-1.5 rounded-full overflow-hidden">
@@ -65,7 +65,7 @@ export default function StatsCards({ metrics, loading }: StatsProps) {
             <Clock size={14} /> Meta 92%
           </span>
         </div>
-        <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Valor Total</p>
+        <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Faturamento</p>
         <h3 className="text-4xl font-extrabold text-slate-900 tracking-tight">
           {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', notation: 'compact' }).format(metrics.totalVendas)}
         </h3>

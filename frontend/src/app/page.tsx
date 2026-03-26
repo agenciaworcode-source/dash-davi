@@ -56,19 +56,19 @@ function FunilCard({
 
       <div className="grid grid-cols-2 gap-2 mb-3">
         <div>
-          <p className="text-[9px] text-slate-400 uppercase font-bold tracking-wider mb-0.5">Total</p>
+          <p className="text-[9px] text-slate-400 uppercase font-bold tracking-wider mb-0.5">Inscrições</p>
           <p className="text-xl font-extrabold text-slate-900">{funil.total_deals}</p>
         </div>
         <div>
-          <p className="text-[9px] text-green-500 uppercase font-bold tracking-wider mb-0.5">Ganhos</p>
+          <p className="text-[9px] text-green-500 uppercase font-bold tracking-wider mb-0.5">Confirmados</p>
           <p className="text-xl font-extrabold text-green-600">{funil.deals_ganhos}</p>
         </div>
         <div>
-          <p className="text-[9px] text-slate-400 uppercase font-bold tracking-wider mb-0.5">Conversão</p>
+          <p className="text-[9px] text-slate-400 uppercase font-bold tracking-wider mb-0.5">Presentes</p>
           <p className="text-base font-extrabold text-blue-600">{funil.conversion}%</p>
         </div>
         <div>
-          <p className="text-[9px] text-slate-400 uppercase font-bold tracking-wider mb-0.5">Valor</p>
+          <p className="text-[9px] text-slate-400 uppercase font-bold tracking-wider mb-0.5">Faturamento</p>
           <p className="text-sm font-extrabold text-slate-900">{funil.valor_formatado}</p>
         </div>
       </div>
